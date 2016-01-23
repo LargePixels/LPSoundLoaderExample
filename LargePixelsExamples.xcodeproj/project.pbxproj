@@ -16,6 +16,18 @@
 		7CDF5C881C53113F00B2BAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5C861C53113F00B2BAEC /* LaunchScreen.storyboard */; };
 		7CDF5C931C53113F00B2BAEC /* LargePixelsExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF5C921C53113F00B2BAEC /* LargePixelsExamplesTests.swift */; };
 		7CDF5C9E1C53113F00B2BAEC /* LargePixelsExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF5C9D1C53113F00B2BAEC /* LargePixelsExamplesUITests.swift */; };
+		7CDF5CB51C53123000B2BAEC /* swoosh4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CAD1C53123000B2BAEC /* swoosh4.m4a */; };
+		7CDF5CB61C53123000B2BAEC /* swoosh3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CAE1C53123000B2BAEC /* swoosh3.m4a */; };
+		7CDF5CB71C53123000B2BAEC /* swoosh2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CAF1C53123000B2BAEC /* swoosh2.m4a */; };
+		7CDF5CB81C53123000B2BAEC /* swoosh1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CB01C53123000B2BAEC /* swoosh1.m4a */; };
+		7CDF5CB91C53123000B2BAEC /* slash4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CB11C53123000B2BAEC /* slash4.m4a */; };
+		7CDF5CBA1C53123000B2BAEC /* slash3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CB21C53123000B2BAEC /* slash3.m4a */; };
+		7CDF5CBB1C53123000B2BAEC /* slash2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CB31C53123000B2BAEC /* slash2.m4a */; };
+		7CDF5CBC1C53123000B2BAEC /* slash1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CB41C53123000B2BAEC /* slash1.m4a */; };
+		7CDF5CC01C53134E00B2BAEC /* LPSoundLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF5CBE1C53134E00B2BAEC /* LPSoundLoader.swift */; };
+		7CDF5CC11C53134E00B2BAEC /* LPOptionsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF5CBF1C53134E00B2BAEC /* LPOptionsLoader.swift */; };
+		7CDF5CC31C5313B300B2BAEC /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF5CC21C5313B300B2BAEC /* Int+Extensions.swift */; };
+		7CDF5CC71C53147100B2BAEC /* rock2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF5CC61C53147100B2BAEC /* rock2.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		7CDF5C991C53113F00B2BAEC /* LargePixelsExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LargePixelsExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDF5C9D1C53113F00B2BAEC /* LargePixelsExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargePixelsExamplesUITests.swift; sourceTree = "<group>"; };
 		7CDF5C9F1C53113F00B2BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDF5CAD1C53123000B2BAEC /* swoosh4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh4.m4a; sourceTree = "<group>"; };
+		7CDF5CAE1C53123000B2BAEC /* swoosh3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.m4a; sourceTree = "<group>"; };
+		7CDF5CAF1C53123000B2BAEC /* swoosh2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.m4a; sourceTree = "<group>"; };
+		7CDF5CB01C53123000B2BAEC /* swoosh1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.m4a; sourceTree = "<group>"; };
+		7CDF5CB11C53123000B2BAEC /* slash4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slash4.m4a; sourceTree = "<group>"; };
+		7CDF5CB21C53123000B2BAEC /* slash3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slash3.m4a; sourceTree = "<group>"; };
+		7CDF5CB31C53123000B2BAEC /* slash2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slash2.m4a; sourceTree = "<group>"; };
+		7CDF5CB41C53123000B2BAEC /* slash1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slash1.m4a; sourceTree = "<group>"; };
+		7CDF5CBE1C53134E00B2BAEC /* LPSoundLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPSoundLoader.swift; sourceTree = "<group>"; };
+		7CDF5CBF1C53134E00B2BAEC /* LPOptionsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPOptionsLoader.swift; sourceTree = "<group>"; };
+		7CDF5CC21C5313B300B2BAEC /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		7CDF5CC61C53147100B2BAEC /* rock2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rock2.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,7 @@
 		7CDF5C781C53113F00B2BAEC /* LargePixelsExamples */ = {
 			isa = PBXGroup;
 			children = (
+				7CDF5CAB1C5311DA00B2BAEC /* Resources */,
 				7CDF5C791C53113F00B2BAEC /* AppDelegate.swift */,
 				7CDF5C7B1C53113F00B2BAEC /* GameScene.sks */,
 				7CDF5C7D1C53113F00B2BAEC /* GameScene.swift */,
@@ -129,6 +154,57 @@
 				7CDF5C9F1C53113F00B2BAEC /* Info.plist */,
 			);
 			path = LargePixelsExamplesUITests;
+			sourceTree = "<group>";
+		};
+		7CDF5CAB1C5311DA00B2BAEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CDF5CC41C5313BB00B2BAEC /* Extentions */,
+				7CDF5CBD1C53125000B2BAEC /* Services */,
+				7CDF5CAC1C5311E700B2BAEC /* Sounds */,
+				7CDF5CC51C53143B00B2BAEC /* Music */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CDF5CAC1C5311E700B2BAEC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7CDF5CAD1C53123000B2BAEC /* swoosh4.m4a */,
+				7CDF5CAE1C53123000B2BAEC /* swoosh3.m4a */,
+				7CDF5CAF1C53123000B2BAEC /* swoosh2.m4a */,
+				7CDF5CB01C53123000B2BAEC /* swoosh1.m4a */,
+				7CDF5CB11C53123000B2BAEC /* slash4.m4a */,
+				7CDF5CB21C53123000B2BAEC /* slash3.m4a */,
+				7CDF5CB31C53123000B2BAEC /* slash2.m4a */,
+				7CDF5CB41C53123000B2BAEC /* slash1.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		7CDF5CBD1C53125000B2BAEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7CDF5CBE1C53134E00B2BAEC /* LPSoundLoader.swift */,
+				7CDF5CBF1C53134E00B2BAEC /* LPOptionsLoader.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7CDF5CC41C5313BB00B2BAEC /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				7CDF5CC21C5313B300B2BAEC /* Int+Extensions.swift */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		7CDF5CC51C53143B00B2BAEC /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7CDF5CC61C53147100B2BAEC /* rock2.m4a */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,10 +311,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDF5CBA1C53123000B2BAEC /* slash3.m4a in Resources */,
+				7CDF5CBB1C53123000B2BAEC /* slash2.m4a in Resources */,
+				7CDF5CBC1C53123000B2BAEC /* slash1.m4a in Resources */,
 				7CDF5C7C1C53113F00B2BAEC /* GameScene.sks in Resources */,
 				7CDF5C881C53113F00B2BAEC /* LaunchScreen.storyboard in Resources */,
 				7CDF5C851C53113F00B2BAEC /* Assets.xcassets in Resources */,
+				7CDF5CB51C53123000B2BAEC /* swoosh4.m4a in Resources */,
 				7CDF5C831C53113F00B2BAEC /* Main.storyboard in Resources */,
+				7CDF5CB71C53123000B2BAEC /* swoosh2.m4a in Resources */,
+				7CDF5CB61C53123000B2BAEC /* swoosh3.m4a in Resources */,
+				7CDF5CB81C53123000B2BAEC /* swoosh1.m4a in Resources */,
+				7CDF5CB91C53123000B2BAEC /* slash4.m4a in Resources */,
+				7CDF5CC71C53147100B2BAEC /* rock2.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDF5CC11C53134E00B2BAEC /* LPOptionsLoader.swift in Sources */,
 				7CDF5C7E1C53113F00B2BAEC /* GameScene.swift in Sources */,
 				7CDF5C801C53113F00B2BAEC /* GameViewController.swift in Sources */,
+				7CDF5CC31C5313B300B2BAEC /* Int+Extensions.swift in Sources */,
+				7CDF5CC01C53134E00B2BAEC /* LPSoundLoader.swift in Sources */,
 				7CDF5C7A1C53113F00B2BAEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

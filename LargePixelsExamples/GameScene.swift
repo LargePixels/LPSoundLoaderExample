@@ -15,30 +15,50 @@ class GameScene: SKScene {
         myLabel.text = "Hello, World!"
         myLabel.fontSize = 45
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
-        
         self.addChild(myLabel)
     }
     
+    var count = 0
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-       /* Called when a touch begins */
-        
+
         for touch in touches {
             let location = touch.locationInNode(self)
+            addSprite(location)
             
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
+            SharedLPSoundLoader.playRandomSfx("slash", onWhat: self)
             
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
+            if (count == 5) {
+                SharedLPSoundLoader.playBackgroundMusic("rock2.m4a")
+                SharedLPOptionsLoader.playSfx = false
+            }
             
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
+            if (count == 10) {
+                SharedLPSoundLoader.pauseBackgroundMusic()
+                SharedLPOptionsLoader.playSfx = true
+            }
             
-            sprite.runAction(SKAction.repeatActionForever(action))
+            if (count == 13) {
+                SharedLPOptionsLoader.playSfx = true
+            }
             
-            self.addChild(sprite)
+            count++
         }
     }
-   
+
+    func addSprite(location: CGPoint) {
+        let sprite = SKSpriteNode(imageNamed:"Spaceship")
+        
+        sprite.xScale = 0.5
+        sprite.yScale = 0.5
+        sprite.position = location
+        
+        let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
+        
+        sprite.runAction(SKAction.repeatActionForever(action))
+        
+        self.addChild(sprite)
+    }
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }
